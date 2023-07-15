@@ -18,6 +18,11 @@
 .text-light-gay {
   color: #727272;
 }
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
 
 /* header styles */
 header {
@@ -28,11 +33,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #131313;
 }
 nav > ul {
   display: flex;
@@ -101,6 +101,30 @@ main {
   font-weight: 700;
 }
 
+/* facts section styles */
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 30px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* responsive media queries */
 
 /* mobile Device */
@@ -115,7 +139,7 @@ main {
   .teams-img-container {
     grid-template-columns: 1fr;
   }
-  .teams-content{
+  .teams-content {
     margin-left: 20px;
     margin-right: 20px;
   }
